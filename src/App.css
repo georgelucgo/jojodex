@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body {
+  background-color: #110D21;
+}
+
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(assets/hero-bg.png) center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero-img {
+  width: 850px;
+  height: 700px;
+  object-fit: cover;
+  align-self: flex-end;
+  z-index: 2;
+
+}
+
+.hero-aura {
+  width: 700px;
+  height: 650px;
+  border-radius: 50%;
+  background-color: rgba(153, 0, 255, 0.8);
+  box-shadow: 0 0 40px rgba(153, 0, 255, 0.6);
+  filter: blur(200px);
+  position: absolute;
+  top: 56%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.hero-text {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  color: white;
+}
+.hero-text h1{
+  margin-bottom: 30px;
+}
+.hero-button {
+  padding: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: #520078;
+  color: white;
+  border: 1px solid rgb(153, 0, 255, 0.32);
+  border-radius: 8px;
+}
+
+.hero-content {
+  display: flex;
+  max-width: 1366px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}

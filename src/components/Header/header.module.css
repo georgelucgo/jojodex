@@ -1,0 +1,41 @@
+
+
+.header{
+    display: flex;
+    position: relative;
+    height: 105px;
+    margin: 0 auto;
+    justify-items: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1366px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(132, 10, 247, 0.1);
+    backdrop-filter: blur(2px);
+    box-shadow:  1px 2px 13px 0px rgba(0, 0, 0, 0.596);
+    width: 60%;
+    max-width: 820px;
+    padding: 16px;
+    color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+a{
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.logo{
+    display: flex;
+    height: 61px;
+    left: 20px;
+    z-index: 2;
+}
