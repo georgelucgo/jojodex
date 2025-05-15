@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./assets/hero.png";
 import About from "./assets/about.png";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { api } from "../src/services/axios";
 
 export interface StandsProps {
